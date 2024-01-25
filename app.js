@@ -1,5 +1,5 @@
 let listaNumSorteados = [];
-let numeroLimite = 100;
+let numeroLimite = 15;
 let numeroSecreto = randomNum();
 let tentativas = 1;
 
@@ -13,7 +13,7 @@ function textHTML(tag, texto) {
 
 function exibirTextoNaTela() {
     textHTML('h1', ' Jogo de advinhação ');
-    textHTML('p', ' Escolha um número de 1 a 100 ');
+    textHTML('p', ' Escolha um número de 1 a 15 ');
 }
 
 function verChute() {
